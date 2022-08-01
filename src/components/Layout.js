@@ -1,11 +1,8 @@
-import { makeStyles } from "@material-ui/core"
-
-
-  
+ 
 const Layout = ({children}) => {
-  const classes = useStyles 
+  
   return (
-    <div className={classes.root }>
+    <div>
       {children}
       </div>
   )
@@ -13,12 +10,7 @@ const Layout = ({children}) => {
 
 export default Layout
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-        dislpay:"flex",
 
-  }
-}))
 
 
 console.log('holi')
