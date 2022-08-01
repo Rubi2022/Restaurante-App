@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+
+*{ font-family: 'Kanit', sans-serif;
+    margin: 0%;
+
+
+}
+h1{
+    font-family: 'Mouse Memoirs', sans-serif; 
+    color: black;
+    margin-inline: 20px;
+}
+.strong{
+    font-family: 'Mouse Memoirs', sans-serif;
+    color: rgb(153, 226, 44);
+    font-size: 35px;
+}
+
+.Nav-bar{
+    background-color: orange;
+    
+}
+.Nav-bar a{
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+}
+.Nav-bar a:hover{
+    color: black;
+    background-color: rgba(170, 230, 80, 0.589);
+}
+
+.referencia{
+    text-align:left;
+    
+
+}
+
+.junt-img{
+    display: flex;
+}
+
+.article-body{
+    
+    border: 0px ;
+    width: 20%;
+    margin: 15px 20px;
+    text-align: center;
+    
+}
+.article_img{
+    width: 400px;
+    max-height: 350px;
+}
+.boton0{
+    margin-left: 17%;
+}
+.text_order{
+    margin-top: 50px;
+    border-color: rgb(224, 159, 62);
+
+}
+  
+
+footer{
+    background-color: rgb(182, 175, 164);
+    
+}
+.nav__ul{
+    text-decoration: none;
+    color: black;
+    margin-left: 50%; 
+   
+}
+.footer_logo{
+    margin-left: 15%;
+    
+}
+  
+
